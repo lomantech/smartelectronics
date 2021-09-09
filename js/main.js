@@ -43,6 +43,6 @@ if (filter=='all') {
   $('.gallery .box').not('.'+filter).hide(200);
    $('.gallery .box').filter('.'+filter).show(400);
 }
-})
+});
 
 });
